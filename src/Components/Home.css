@@ -1,0 +1,61 @@
+.myUl{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(62, 71, 201);
+    font-size: larger;
+    border-radius: 5px;
+    list-style: none;
+    color: white;
+    height: 50px;
+    align-items: center;
+    font-weight: bolder;
+}
+
+.myNav{
+    margin: 23px;
+}
+
+
+#myImg{
+    height: 100%;
+}
+button{
+    color:white;
+    background-color: rgb(62, 71, 201);
+    border: none;
+    font-weight: bolder;
+    margin-right: 25px;
+}
+
+@button: :hover{
+    cursor: pointer;
+    background-color: rgb(50,68, 188)
+}
+#myIcon{
+width: 260px;
+position: absolute;
+}
+
+.leftB{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 25px;
+
+}
+
+#iconMain{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.rightB{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 25px;
+
+}
+
+h3{
+    color: rgb(46, 56, 184);
+}
